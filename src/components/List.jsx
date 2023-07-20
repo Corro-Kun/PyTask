@@ -19,7 +19,7 @@ function List(){
         <div className="flex py-5 gap-10 flex-wrap items-center">
             {
                 Content.map((Content, i)=>(
-                    <Card key={i} title={Content.title} descripcion={Content.descripcion} />
+                    <Card key={i} title={Content.title} descripcion={Content.descripcion} id={Content._id} />
                 ))
             }
         </div>
